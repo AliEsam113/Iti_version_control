@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Country Profile Card</title>
+    <style>
+        body {
+            margin: 70px auto;
+            font-family: 'Andalus', sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            background-color: lightgrey;
+        }
+
+        .container {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+
+        .card {
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .flag {
+            width: 100%;
+            height: 30%;
+        }
+
+        .name {
+            font-size: 30px;
+            padding-left: 30px;
+            margin: 15px 0 5px;
+        }
+
+        .region {
+            padding-left: 30px;
+            font-size: 18px;
+            color: gray;
+        }
+
+        .population,
+        .language,
+        .currency {
+            font-size: 18px;
+            color: gray;
+        }
+
+        .info {
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        .info td {
+            padding: 8px 20px;
+            font-family: 'Century Gothic', sans-serif;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="flag"></div>
+            <div class="name">Egypt</div>
+            <div class="region">Africa</div>
+            <table class="info">
+                <tr>
+                    <td>🧑‍🤝‍🧑</td>
+                    <td class="population">102.3 million people</td>
+                </tr>
+                <tr>
+                    <td>🗣️</td>
+                    <td class="language">Arabic</td>
+                </tr>
+                <tr>
+                    <td>🪙</td>
+                    <td class="currency">Egyptian pound</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <div class="flag"></div>
+            <div class="name">Libya</div>
+            <div class="region">Africa</div>
+            <table class="info">
+                <tr>
+                    <td>🧑‍🤝‍🧑</td>
+                    <td class="population">6.9 million people</td>
+                </tr>
+                <tr>
+                    <td>🗣️</td>
+                    <td class="language">Arabic</td>
+                </tr>
+                <tr>
+                    <td>🪙</td>
+                    <td class="currency">Libyan dinar</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="functions.js"></script>
+
+
+</body>
+
+</html>
